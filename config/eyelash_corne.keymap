@@ -79,9 +79,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESC  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&kp LEFT_SHIFT  &kp ESC   &kp AT          &kp HASH      &kp DLLR      &kp PRCNT                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp GRAVE  &kp INS
-&kp LCTRL &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLSH   &kp PRINTSCREEN
+&kp ESC         &kp N1     &kp N2     &kp N3        &kp N4        &kp N5                                      &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0      &kp BSPC
+&kp LEFT_SHIFT  &kp ESC    &kp AT     &kp HASH      &kp DLLR      &kp PRCNT                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp GRAVE   &kp INS
+&kp LCTRL       &kp CARET  &kp AMPS   &kp ASTRK     &kp LPAR      &kp RPAR       &kp C_MUTE                   &mmv MOVE_DOWN                   &kp MINUS        &kp EQUAL        &kp LBKT         &kp RBKT         &kp BSLSH   &kp PRINTSCREEN
                                          &trans        &trans        &kp SPACE                                                                          &kp RET          &trans          &kp LALT
             >;
 
@@ -91,10 +91,10 @@
         raise_layer {
             display-name = "CTRLS";
             bindings = <
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                            &mmv MOVE_UP                     &kp F1      &kp F2     &kp F3       &kp F4     &kp F5  &kp F6
-&trans  &bt BT_CLR    &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F7     &kp F8       &kp F9      &kp F10          &kp F11  &kp F12
-&trans  &out OUT_USB  &out OUT_BLE  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI      &rgb_ug RGB_BRD  &kp C_MUTE                      &mmv MOVE_DOWN                   &bootloader  &sys_reset   &studio_unlock   &trans  &trans  &trans
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3                                &mmv MOVE_UP                     &kp F1       &kp F2       &kp F3           &kp F4       &kp F5   &kp F6
+&trans  &bt BT_CLR       &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F7       &kp F8       &kp F9           &kp F10      &kp F11  &kp F12
+&trans  &out OUT_USB     &out OUT_BLE     &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_MUTE                 &mmv MOVE_DOWN                   &bootloader  &sys_reset   &trans   &trans       &trans   &trans
+                                    &trans     &trans     &kp SPACE                                                                                           &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
